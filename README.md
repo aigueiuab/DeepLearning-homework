@@ -36,3 +36,17 @@ pip install -r requirements.txt
 ```
 
 完成以上步骤后，即可正常运行和测试作业。
+
+---
+
+## 课后作业 2
+
+### 额外依赖
+
+本章作业需要用到 `tensorflow`、`torch` 和 `torchvision`，上述依赖已写入 `requirements.txt`，执行第 3 步的 `pip install -r requirements.txt` 即可一并安装。
+
+### TensorFlow 版本说明
+
+> **注意：** `chap5_CNN` 中的 TensorFlow 版本代码原本基于 **TensorFlow 1.x** 编写，使用 `tf.placeholder`、`tf.Session` 等 1.x 风格 API。
+>
+> 当前环境使用的是 **TensorFlow 2.x**，因此对部分数据处理代码做了适配性修改（如数据加载方式、归一化处理等），**不影响作业核心内容（填空部分）的完成**。
