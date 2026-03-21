@@ -50,3 +50,7 @@ pip install -r requirements.txt
 > **注意：** `chap5_CNN` 中的 TensorFlow 版本代码原本基于 **TensorFlow 1.x** 编写，使用 `tf.placeholder`、`tf.Session` 等 1.x 风格 API。
 >
 > 当前环境使用的是 **TensorFlow 2.x**，因此对部分数据处理代码做了适配性修改（如数据加载方式、归一化处理等），**不影响作业核心内容（填空部分）的完成**。
+
+## 作业 3 说明
+
+本章作业（循环神经网络 RNN）同样依赖 `torch` 等库，这些已在 `requirements.txt` 中统一安装，无需额外配置即可直接运行。
