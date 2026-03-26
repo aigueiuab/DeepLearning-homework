@@ -54,3 +54,9 @@ pip install -r requirements.txt
 ## 作业 3 说明
 
 本章作业（循环神经网络 RNN）同样依赖 `torch` 等库，这些已在 `requirements.txt` 中统一安装，无需额外配置即可直接运行。
+
+## 作业 4 说明
+
+### 额外依赖
+
+本章作业需要用到 `tqdm` 库，该依赖已写入 `requirements.txt`，执行第 3 步的 `pip install -r requirements.txt` 即可一并安装，无需额外配置。
